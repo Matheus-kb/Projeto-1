@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    text-rendering: optimize;
+}
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(img/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text-box{
+    position: absolute;
+    top: 50%;
+    left: 4%;
+}
+
+header h1{
+    margin: 0;
+    color: #fff;
+    font-weight: 400;
+    word-spacing: 7px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+.btn:link, .btn:visited{
+    border: solid orangered;
+    border-radius: 15px;
+    padding: 5px 30px;
+    margin-right: 25px;
+}
+
+.btn-full{
+    color: #fff;
+    background-color: orangered;
+}
+
+.btn-ghost{
+    color: orangered;
+}
+
+
