@@ -20,6 +20,56 @@ header{
     background-position: center;
 }
 
+header nav{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header .logo{
+    width: 75px;
+    margin-left: 30px;
+    border: solid 8px black;
+    border-radius: 40px;
+}
+
+header .logo:hover{
+    border: solid 8px transparent;
+
+}
+
+header .main-nav{
+list-style: none;
+display: flex;
+justify-content: space-around;
+
+flex-grow: 2;
+
+margin-left: 30%;
+}
+
+header .main-nav a{
+    color: #fff;
+    font-size: 1.0rem;
+    font-weight: 400;
+}
+
+header .main-nav li{
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border-bottom: solid 4px transparent;
+    border-right:  solid 4px transparent;
+
+    transition: border-bottom 0.3s, border-right 0.3s;
+}
+
+header .main-nav li:hover{
+    border-bottom: solid 4px orangered;
+    border-right:  solid 4px orangered;
+}
+
 .hero-text-box{
     position: absolute;
     top: 50%;
@@ -50,10 +100,25 @@ header a{
 .btn-full{
     color: #fff;
     background-color: orangered;
+
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-full:hover,
+.btn-full:active{
+background-color: rgb(137, 39, 3);
+border-color: rgb(137, 39, 3);
+
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+background-color: rgb(137, 39, 3);
+border-color: rgb(137, 39, 3);
+color: #fff;
 }
 
 .btn-ghost{
     color: orangered;
+    transition: background-color 0.3s, border-color 0.3s;
 }
-
-
