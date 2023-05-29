@@ -1,0 +1,75 @@
+@media only screen and (max-width:700px) {
+    header .main-nav a {
+        font-size: 1.2rem;
+    }
+
+    header .logo {
+        width: 90px;
+    }
+
+    .hero-text-box a {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .row-pitch h2 {
+        font-size: 1.8rem;
+    }
+
+    .section-features .long-copy {
+        font-size: 1.8rem;
+    }
+
+    .section-features p {
+        font-size: 1.3rem;
+    }
+
+    .row-features p {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 625px) {
+
+    header .main-nav {
+        margin-left: 10%;
+    }
+
+    header .main-nav a {
+        font-size: 1.2rem;
+    }
+
+    header .logo {
+        width: 80px;
+    }
+
+    .hero-text-box a {
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    .image-showcase li {
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    header .main-nav a {
+        font-size: 1.1rem;
+    }
+
+    .image-showcase li {
+        width: 100%;
+    }
+
+    .section-features .long-copy {
+        font-size: 1.4rem;
+    }
+}
