@@ -131,6 +131,7 @@ color: #fff;
     text-align: center;
     margin: 20px 10%;
 }
+
 .section-features-h2{
     font-size: 3rem;
 
@@ -148,7 +149,44 @@ color: #fff;
     margin-bottom: 20px;
     
 }
-.section-features-p .long-copy{
+.section-features .long-copy{
     font-size: 1.5rem;
     line-height: 2.5rem;
+}
+
+.section-features ion-icon{
+    font-size: 3rem;
+    color: orangered;
+    border-bottom: 7px;
+}
+
+.image-showcase{
+    width: 100%;
+    list-style: none;
+}
+
+.image-showcase li{
+    display: flex;
+    width: 25%;
+    overflow: hidden;
+    float: left;
+}
+
+.image-showcase .foto{
+    width: 100%;
+    background-color: black;
+}
+
+.foto img{
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+    transform:scale(1.2) ;
+
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.foto img:hover{
+    transform: scale(1.0);
+    opacity: 1;
 }
