@@ -1,10 +1,25 @@
 @media only screen and (max-width:700px) {
+
+    header nav{
+        top: 12px;
+        width: 90%;
+    }
+    header .main-nav {
+        display: none;
+    }
+
+    header .menu-open {
+        display: flex;
+        flex-direction: column;
+    }
+
     header .main-nav a {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     header .logo {
-        width: 90px;
+        width: 75px;
+        
     }
 
     .hero-text-box a {
@@ -16,7 +31,7 @@
         font-size: 1.8rem;
     }
 
-    .section-features .long-copy {
+    .section-features {
         font-size: 1.8rem;
     }
 
@@ -32,10 +47,33 @@
         font-size: 1.3rem;
     }
 
+    .carousel{
+        width: 600px;
+        height: 300px;
+    }
+
+    .manual-navigation{
+        width: 600px;
+    }
+
+    .burger-item{
+        width: 48%;
+    }
+    
+
 }
 
 
-@media only screen and (max-width: 625px) {
+
+@media only screen and (max-width: 626px) {
+
+    .main-nav {
+        display: none;
+    }
+
+    .menu-open {
+        display: block;
+    }
 
     header .main-nav {
         margin-left: 10%;
@@ -58,6 +96,10 @@
         width: 50%;
     }
 
+    .comentarios blockquote{
+        width: 94%;
+    }
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -69,7 +111,34 @@
         width: 100%;
     }
 
-    .section-features .long-copy {
+    .section-features {
         font-size: 1.4rem;
+    }
+
+    /* .row {
+        display: flex;
+        flex-wrap: wrap;
+    } */
+    
+    .box {
+        width: 100%; 
+    }
+
+    .carousel{
+        margin-top: 20px;
+        width: 440px;
+        height: 220px;
+    }
+
+    .manual-navigation{
+        width: 440px;
+    }
+
+    .burger-item{
+        width: 96%;
+    }
+
+    blockquote{
+        width: 94%;
     }
 }
